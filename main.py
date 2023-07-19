@@ -34,7 +34,7 @@ class Email2(BaseModel):
 
 @app.get('/')
 def index():
-    return {'Email API': 'API server has started'}
+    return {'Email API': 'API server has started','Version':'1.0.0','Author1':'Soumyajit Datta','Author2':'Jeet Nandigrami'}
 
 
 @app.post('/sendmail/setsender')
